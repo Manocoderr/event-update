@@ -1,0 +1,36 @@
+.page{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid black;
+    text-align: left;
+}
+.head{
+    text-align: center;
+}
+
+
+.form{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    vertical-align: middle;
+
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    gap: 20px;
+    text-align:end;
+}
+.form-box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+}
+#submit-btn{
+width: 200px;
+text-align: center;
+}
